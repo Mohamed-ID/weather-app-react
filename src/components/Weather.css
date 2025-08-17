@@ -1,0 +1,25 @@
+.parent-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.parent-container button {
+    align-self: start;
+    margin-left: 50px;
+}
+
+
+.weather-box {
+    background-color: #0A3F9D;
+    box-shadow: 0 0 10px #00000056;
+    padding: 30px;
+}
+
+.ar {
+    direction: rtl;
+}
+
+.eng {
+    direction: ltr;
+}

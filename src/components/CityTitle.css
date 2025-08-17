@@ -1,0 +1,15 @@
+.title {
+    display: flex;
+    align-items: end;
+    gap: 20px;
+    padding: 10px 0px;
+}
+
+.title h2 {
+    font-size: 50px;
+    align-self: center;
+}
+
+.title div {
+    font-size: 17px;
+}

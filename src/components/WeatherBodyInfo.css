@@ -1,0 +1,24 @@
+.weather-body {
+    padding: 10px 0;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.weather-body .MuiBox-root {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.weather-body svg {
+    width: 100%;
+    font-size: 100px;
+}
+
+.weather-body .low-high {
+    display: flex;
+    gap: 10px;
+}
